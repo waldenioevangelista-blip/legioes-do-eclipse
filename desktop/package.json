@@ -1,0 +1,41 @@
+{
+  "name": "legioes-do-eclipse-dream",
+  "version": "0.1.0",
+  "description": "Legiões do Eclipse — DREAM REFORGED",
+  "main": "main.js",
+  "author": "Legiões do Eclipse",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "44.4.5",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.legioesdoeclipse.dream",
+    "productName": "Legiões do Eclipse DREAM",
+    "asar": true,
+    "files": [
+      "main.js",
+      "game/**/*",
+      "assets/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.ico",
+      "artifactName": "Legioes-do-Eclipse-DREAM-${version}.${ext}"
+    }
+  }
+}
