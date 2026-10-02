@@ -31,3 +31,7 @@ O arquivo `.github/workflows/build.yml` compila os dois formatos:
 - Android: APK debug instalável
 
 Ao subir este pacote para um repositório GitHub e executar a Action `Build DREAM EXE and APK`, os dois binários ficam disponíveis como Artifacts.
+
+## Progresso — 02/10/2026
+- Migração gradual do tabuleiro para Phaser, preservando a lógica funcional anterior.
+- Teste de terreno procedural com transições mais naturais e grade visual menos aparente.
