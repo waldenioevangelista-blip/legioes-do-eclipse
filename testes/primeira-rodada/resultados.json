@@ -1,0 +1,141 @@
+{
+  "method": "Node VM com DOM simulado; código original carregado sem alteração do arquivo; funções internas expostas somente na memória",
+  "passed": 31,
+  "failed": 2,
+  "results": [
+    {
+      "name": "Inicialização: 8 unidades e atributos finitos",
+      "status": "PASS"
+    },
+    {
+      "name": "Turnos: alternância e incremento de rodada",
+      "status": "PASS"
+    },
+    {
+      "name": "Reposição de movimento ao iniciar turno",
+      "status": "PASS"
+    },
+    {
+      "name": "Cronômetro expira e troca turno",
+      "status": "PASS"
+    },
+    {
+      "name": "Modal pausa cronômetro e bloqueia encerrar turno",
+      "status": "PASS"
+    },
+    {
+      "name": "Movimento: custo, destino e bloqueio de turno durante animação",
+      "status": "PASS"
+    },
+    {
+      "name": "Rotas: custo dentro do orçamento e passos ortogonais",
+      "status": "PASS"
+    },
+    {
+      "name": "Entrada de duelo preserva vida da unidade",
+      "status": "PASS"
+    },
+    {
+      "name": "Vitória remove adversário e preserva vida do vencedor",
+      "status": "PASS"
+    },
+    {
+      "name": "Derrota remove criatura do jogador",
+      "status": "PASS"
+    },
+    {
+      "name": "Empate conserva unidades e posições",
+      "status": "PASS"
+    },
+    {
+      "name": "Duelo encerra aos 120 segundos",
+      "status": "PASS"
+    },
+    {
+      "name": "Treino preserva estado do tabuleiro",
+      "status": "PASS"
+    },
+    {
+      "name": "Captura do orbe encerra partida",
+      "status": "PASS"
+    },
+    {
+      "name": "Colisão desloca corpo sobreposto fora do centro",
+      "status": "PASS"
+    },
+    {
+      "name": "Colisão resolve corpo exatamente no centro do obstáculo",
+      "status": "FAIL",
+      "detail": "Corpo permaneceu no centro do obstáculo"
+    },
+    {
+      "name": "Entrada pela aba Arena permite atualizar combate",
+      "status": "FAIL",
+      "detail": "Cannot read properties of undefined (reading 'icon')"
+    },
+    {
+      "name": "Especial berserker: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial orc: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial thief: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial templar: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial troll: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial illusionist: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial phantom: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial wraith: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial water: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial wizard: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial fire: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial seer: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial shifter: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial vampire: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial demon: custo, recarga e estado finito",
+      "status": "PASS"
+    },
+    {
+      "name": "Especial conjurer: custo, recarga e estado finito",
+      "status": "PASS"
+    }
+  ]
+}
