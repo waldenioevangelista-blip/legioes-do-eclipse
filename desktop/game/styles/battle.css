@@ -1,0 +1,9 @@
+/** Estilos responsivos do campo de batalha. */
+:root {
+  --battle-player-rail: clamp(44px, 16vw, 220px);
+  --battle-enemy-rail: clamp(44px, 16vw, 220px);
+  --battle-monster-small: clamp(28px, 7vw, 52px);
+  --battle-monster-medium: clamp(40px, 10vw, 76px);
+  --battle-monster-large: clamp(54px, 14vw, 104px);
+}
+/* Nenhuma regra existente é sobrescrita nesta etapa. */
